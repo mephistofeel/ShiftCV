@@ -1,0 +1,19 @@
+// Центрирование с помощью флексбокса
+@mixin flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+// Сброс стилей по умолчанию у списков
+@mixin list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Cброс стилей по умолчанию у ссылок
+@mixin link {
+  color: inherit;
+  text-decoration: none;
+}

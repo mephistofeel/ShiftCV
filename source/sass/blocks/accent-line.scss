@@ -1,0 +1,31 @@
+.accent-line {
+  display: flex;
+  width: 100%;
+  margin-bottom: 31px;
+}
+
+.accent-line__style {
+  display: block;
+  flex-grow: 1;
+  height: 9px;
+}
+
+.accent-line__style-1 {
+  background-color: #f95656;
+}
+
+.accent-line__style-2 {
+  background-color: #3a66e6;
+}
+
+.accent-line__style-3 {
+  background-color: #1bc9e4;
+}
+
+.accent-line__style-4 {
+  background-color: #ffc455;
+}
+
+.accent-line__style-5 {
+  background-color: #ff754a;
+}

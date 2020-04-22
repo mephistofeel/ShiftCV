@@ -1,0 +1,19 @@
+.page-header__social-list {
+  display: flex;
+  justify-content: center;
+  @include list-reset;
+  margin-bottom: 30px;
+}
+
+.page-header__social-item {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.page-header__social-item:hover svg {
+  fill: #3a66e6;
+}
